@@ -1,5 +1,6 @@
 .thumbnail {
     width: 100%;
+    cursor: pointer;
   }
   
   .video-title {
@@ -8,16 +9,19 @@
     font-weight: 500;
     line-height: 20px;
     margin-bottom: 10px;
+    cursor: pointer;
   }
   
   .video-info-grid {
     display: grid;
     grid-template-columns: 50px 1fr;
+    
   }
   
   .profile-picture {
     width: 36px;
     border-radius: 50px;
+    cursor: pointer;
   }
   
   .thumbnail-row {
@@ -33,6 +37,7 @@
   
   .video-author {
     margin-bottom: 4px;
+    cursor: pointer;
   }
   
   .video-grid {
